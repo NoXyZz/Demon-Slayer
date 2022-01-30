@@ -1,0 +1,338 @@
+.md-typeset div.arithmatex  {
+    overflow: initial;
+}
+
+.md-typeset .admonition {
+    font-size: 0.8rem;
+}
+
+.md-typeset details {
+    font-size: 0.8rem;
+}
+
+
+
+
+@keyframes heart {
+  0%, 40%, 80%, 00% {
+    transform: scale(1);
+  }
+  20%, 60% {
+    transform: scale(1.1);
+  }
+}
+.heart {
+  animation: heart 1000ms infinite;
+  color:firebrick
+}
+
+
+
+
+
+
+:root {
+  --md-admonition-icon--technique: url('https://cdn-icons-png.flaticon.com/512/4334/4334078.png')
+}
+.md-typeset .admonition.technique,
+.md-typeset details.technique {
+  border-color: rgb(0, 119, 255);
+}
+.md-typeset .technique > .admonition-title,
+.md-typeset .technique > summary {
+  background-color: rgba(17, 0, 255, 0.1);
+  border-color: rgb(0, 88, 221);
+}
+.md-typeset .technique > .admonition-title::before,
+.md-typeset .technique > summary::before {
+  background-color: rgb(0, 81, 255);
+  -webkit-mask-image: var(--md-admonition-icon--technique);
+          mask-image: var(--md-admonition-icon--technique);
+}
+
+
+
+:root {
+  --md-admonition-icon--combotj: url('https://cdn-icons-png.flaticon.com/512/1664/1664981.png')
+}
+.md-typeset .admonition.combotj,
+.md-typeset details.combotj {
+  border-color: rgb(255, 230, 0);
+}
+.md-typeset .combotj > .admonition-title,
+.md-typeset .combotj > summary {
+  background-color: rgba(117, 100, 0, 0.1);
+  border-color: rgb(255, 230, 0);
+}
+.md-typeset .combotj > .admonition-title::before,
+.md-typeset .combotj > summary::before {
+  background-color: rgb(255, 230, 0);
+  -webkit-mask-image: var(--md-admonition-icon--combotj);
+          mask-image: var(--md-admonition-icon--combotj);
+}
+
+
+
+:root {
+  --md-admonition-icon--combotju: url('https://cdn-icons-png.flaticon.com/512/1664/1664981.png')
+}
+.md-typeset .admonition.combotju,
+.md-typeset details.combotju {
+  border-color: rgb(122, 110, 2);
+}
+.md-typeset .combotju > .admonition-title,
+.md-typeset .combotju > summary {
+  background-color: rgba(117, 99, 0, 0.22);
+  border-color: rgb(158, 143, 5);
+}
+.md-typeset .combotju > .admonition-title::before,
+.md-typeset .combotju > summary::before {
+  background-color: rgb(168, 152, 5);
+  -webkit-mask-image: var(--md-admonition-icon--combotju);
+          mask-image: var(--md-admonition-icon--combotju);
+}
+
+
+
+
+:root {
+  --md-admonition-icon--combotb: url('https://cdn-icons-png.flaticon.com/512/1665/1665032.png')
+}
+.md-typeset .admonition.combotb,
+.md-typeset details.combotb {
+  border-color: rgb(16, 219, 209);
+}
+.md-typeset .combotb > .admonition-title,
+.md-typeset .combotb > summary {
+  background-color: rgba(0, 92, 116, 0.1);
+  border-color: rgb(16, 219, 209);
+}
+.md-typeset .combotb > .admonition-title::before,
+.md-typeset .combotb > summary::before {
+  background-color: rgb(16, 219, 209);
+  -webkit-mask-image: var(--md-admonition-icon--combotb);
+          mask-image: var(--md-admonition-icon--combotb);
+}
+
+
+
+:root {
+  --md-admonition-icon--combotbu: url('https://cdn-icons-png.flaticon.com/512/1665/1665032.png')
+}
+.md-typeset .admonition.combotbu,
+.md-typeset details.combotbu {
+  border-color: rgb(4, 124, 118);
+}
+.md-typeset .combotbu > .admonition-title,
+.md-typeset .combotbu > summary {
+  background-color: rgba(0, 92, 116, 0.22);
+  border-color: rgb(4, 124, 118);
+}
+.md-typeset .combotbu > .admonition-title::before,
+.md-typeset .combotbu > summary::before {
+  background-color: rgb(61, 182, 176);
+  -webkit-mask-image: var(--md-admonition-icon--combotbu);
+          mask-image: var(--md-admonition-icon--combotbu);
+}
+
+
+
+
+:root {
+  --md-admonition-icon--combotr: url('https://cdn-icons-png.flaticon.com/512/1665/1665032.png')
+}
+.md-typeset .admonition.combotr,
+.md-typeset details.combotr {
+  border-color: rgb(219, 16, 16);
+}
+.md-typeset .combotr > .admonition-title,
+.md-typeset .combotr > summary {
+  background-color: rgba(82, 0, 0, 0.1);
+  border-color: rgb(219, 16, 16);
+}
+.md-typeset .combotr > .admonition-title::before,
+.md-typeset .combotr > summary::before {
+  background-color: rgb(219, 16, 16);
+  -webkit-mask-image: var(--md-admonition-icon--combotr);
+          mask-image: var(--md-admonition-icon--combotr);
+}
+
+
+:root {
+  --md-admonition-icon--combotru: url('https://cdn-icons-png.flaticon.com/512/1665/1665032.png')
+}
+.md-typeset .admonition.combotru,
+.md-typeset details.combotru {
+  border-color: rgb(160, 5, 5);
+}
+.md-typeset .combotru > .admonition-title,
+.md-typeset .combotru > summary {
+  background-color: rgba(82, 0, 0, 0.22);
+  border-color: rgb(126, 3, 3);
+}
+.md-typeset .combotru > .admonition-title::before,
+.md-typeset .combotru > summary::before {
+  background-color: rgb(161, 4, 4);
+  -webkit-mask-image: var(--md-admonition-icon--combotru);
+          mask-image: var(--md-admonition-icon--combotru);
+}
+
+
+
+:root {
+  --md-admonition-icon--combote: url('https://cdn-icons-png.flaticon.com/512/1665/1665032.png')
+}
+.md-typeset .admonition.combote,
+.md-typeset details.combote {
+  border-color: rgb(82, 1, 55);
+}
+.md-typeset .combote > .admonition-title,
+.md-typeset .combote > summary {
+  background-color: rgba(83, 0, 63, 0.22);
+  border-color: rgb(97, 4, 105);
+}
+.md-typeset .combote > .admonition-title::before,
+.md-typeset .combote > summary::before {
+  background-color: rgb(82, 0, 68);
+  -webkit-mask-image: var(--md-admonition-icon--combote);
+          mask-image: var(--md-admonition-icon--combote);
+}
+
+
+
+:root {
+  --md-admonition-icon--rengoku: url('https://raw.githubusercontent.com/squidfunk/mkdocs-material/38e001313ab79b2d65f7755491022243867572c8/material/.icons/octicons/flame-16.svg')
+}
+.md-typeset .admonition.rengoku,
+.md-typeset details.rengoku {
+  border-color: rgb(255, 0, 0);
+}
+.md-typeset .rengoku > .admonition-title,
+.md-typeset .rengoku > summary {
+  background-color: rgba(255, 0, 0, 0.1);
+  border-color: rgb(255, 0, 0);
+}
+.md-typeset .rengoku > .admonition-title::before,
+.md-typeset .rengoku > summary::before {
+  background-color: rgb(255, 81, 0);
+  animation: heart 1000ms infinite;
+  -webkit-mask-image: var(--md-admonition-icon--rengoku);
+          mask-image: var(--md-admonition-icon--rengoku);
+}
+
+
+
+
+:root {
+  --md-admonition-icon--zenitsu: url('https://raw.githubusercontent.com/squidfunk/mkdocs-material/38e001313ab79b2d65f7755491022243867572c8/material/.icons/octicons/zap-16.svg')
+}
+.md-typeset .admonition.zenitsu,
+.md-typeset details.zenitsu {
+  border-color: rgb(238, 255, 0);
+}
+.md-typeset .zenitsu > .admonition-title,
+.md-typeset .zenitsu > summary {
+  background-color: rgba(255, 238, 0, 0.1);
+  border-color: rgb(162, 165, 0);
+}
+.md-typeset .zenitsu > .admonition-title::before,
+.md-typeset .zenitsu > summary::before {
+  background-color: rgb(255, 208, 0);
+  animation: heart 1000ms infinite;
+  -webkit-mask-image: var(--md-admonition-icon--zenitsu);
+          mask-image: var(--md-admonition-icon--zenitsu);
+}
+
+
+:root {
+  --md-admonition-icon--tanjiroh: url('https://cdn-icons.flaticon.com/png/512/3570/premium/3570483.png?token=exp=1643545327~hmac=ce30e58fc9c8d34a404a4ba926049695')
+}
+.md-typeset .admonition.tanjiroh,
+.md-typeset details.tanjiroh {
+  border-color: rgb(230, 85, 1);
+}
+.md-typeset .tanjiroh > .admonition-title,
+.md-typeset .tanjiroh > summary {
+  background-color: rgba(255, 238, 0, 0.1);
+  border-color: rgb(131, 1, 1);
+}
+.md-typeset .tanjiroh > .admonition-title::before,
+.md-typeset .tanjiroh > summary::before {
+  background-color: rgb(104, 47, 0);
+  animation: heart 1000ms infinite;
+  -webkit-mask-image: var(--md-admonition-icon--tanjiroh);
+          mask-image: var(--md-admonition-icon--tanjiroh);
+}
+
+
+
+
+
+
+
+
+
+
+
+:root {
+  --md-admonition-icon--akaza: url('https://cdn-icons-png.flaticon.com/512/3100/3100127.png')
+}
+.md-typeset .admonition.akaza,
+.md-typeset details.akaza {
+  border-color: rgb(255, 0, 128);
+}
+.md-typeset .akaza > .admonition-title,
+.md-typeset .akaza > summary {
+  background-color: rgba(56, 0, 49, 0.1);
+  border-color: rgb(255, 51, 0);
+}
+.md-typeset .akaza > .admonition-title::before,
+.md-typeset .akaza > summary::before {
+  background-color: rgb(104, 0, 64);
+  animation: heart 1000ms infinite;
+  -webkit-mask-image: var(--md-admonition-icon--akaza);
+          mask-image: var(--md-admonition-icon--akaza);
+}
+
+
+
+:root {
+  --md-admonition-icon--tomioka: url('https://cdn-icons.flaticon.com/png/512/1762/premium/1762178.png')
+}
+.md-typeset .admonition.tomioka,
+.md-typeset details.tomioka {
+  border-color: rgb(0, 68, 255);
+}
+.md-typeset .tomioka > .admonition-title,
+.md-typeset .tomioka > summary {
+  background-color: rgba(12, 0, 56, 0.1);
+  border-color: rgb(0, 5, 75);
+}
+.md-typeset .tomioka > .admonition-title::before,
+.md-typeset .tomioka > summary::before {
+  background-color: rgb(214, 61, 0);
+  animation: heart 1000ms infinite;
+  -webkit-mask-image: var(--md-admonition-icon--tomioka);
+          mask-image: var(--md-admonition-icon--tomioka);
+}
+
+
+:root {
+  --md-admonition-icon--shinobu: url('https://cdn-icons.flaticon.com/png/512/854/premium/854574.png')
+}
+.md-typeset .admonition.shinobu,
+.md-typeset details.shinobu {
+  border-color: rgb(212, 0, 255);
+}
+.md-typeset .shinobu > .admonition-title,
+.md-typeset .shinobu > summary {
+  background-color: rgba(40, 0, 56, 0.1);
+  border-color: rgb(235, 75, 250);
+}
+.md-typeset .shinobu > .admonition-title::before,
+.md-typeset .shinobu > summary::before {
+  background-color: rgb(216, 145, 248);
+  animation: heart 1000ms infinite;
+  -webkit-mask-image: var(--md-admonition-icon--shinobu);
+          mask-image: var(--md-admonition-icon--shinobu);
+}
